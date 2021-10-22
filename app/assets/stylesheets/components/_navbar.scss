@@ -8,5 +8,20 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.nav-item .nav-link {
+  // background-color: green;
+  color: lightgreen !important;
+  text-decoration: none;
+
+  &:hover{
+    background-color: yellow;
+    color: black !important;
+    padding: 12px 24px;
+    border-radius: 36px;
+  }
 }
